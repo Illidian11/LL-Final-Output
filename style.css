@@ -151,15 +151,9 @@ h5 {
   border-bottom: 1px solid orange;
   margin: 20px 0;
 }
-.s-strm p {
+.strm-p {
   width: 90%;
   line-height: 25px;
-  display: block;
-}
-.f-strm p {
-  width: 90%;
-  line-height: 25px;
-  display: block;
 }
 h6 {
   padding: 15px;
