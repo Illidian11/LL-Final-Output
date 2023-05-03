@@ -167,11 +167,14 @@ h5 {
 .f-img2 {
   height: 250px;
   width: 400px;
+  margin: 10px 300px;
   box-shadow: 0 0 40px 1px blue, 0 0 40px 10px red, 0 0 5px 10px black;
+  border: 1px solid white;
 }
 h6 {
   padding: 15px;
   margin: auto;
+  margin-top: 20px;
   width: 90%;
   font-size: 15px;
   border-left: 1px solid gold;
