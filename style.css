@@ -154,22 +154,12 @@ h5 {
 .s-strm p {
   width: 90%;
   line-height: 25px;
+  display: block;
 }
 .f-strm p {
   width: 90%;
   line-height: 25px;
-}
-.f-img {
-  height: 250px;
-  margin: 10px 350px;
-  box-shadow: 0 0 40px 1px blue, 0 0 40px 10px red, 0 0 5px 10px black;
-}
-.f-img2 {
-  height: 250px;
-  width: 400px;
-  margin: 10px 300px;
-  box-shadow: 0 0 40px 1px blue, 0 0 40px 10px red, 0 0 5px 10px black;
-  border: 1px solid white;
+  display: block;
 }
 h6 {
   padding: 15px;
