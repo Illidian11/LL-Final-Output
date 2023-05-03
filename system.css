@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background: linear-gradient(to top right, #365BEE, #0E152F);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-repeat: no-repeat;
+  -webkit-user-select: none;
+}
+#effects {
+  position: absolute;
+  top: 25%;
+  transform: translate(0, -20%);
+  width: 100%;
+  height: 200px;
+  overflow-y: hidden;
+  z-index: -1;
+}
+.Fx-1 {
+  height: 20px;
+  width: 30px;
+  position: relative;
+  animation: move 5s linear infinite;
+  left: -10%;
+  border: 1px solid white;
+}
+.Fx-2 {
+  height: 20px;
+  width: 30px;
+  position: relative;
+  animation: move 5s linear infinite;
+  animation-delay: 1s;
+  left: -10%;
+  border: 1px solid white;
+}
+.Fx-3 {
+  height: 20px;
+  width: 30px;
+  position: relative;
+  animation: move 5s linear infinite;
+  left: -10%;
+  animation-delay: 2s;
+  border: 1px solid white;
+}
+.Fx-4 {
+  height: 20px;
+  width: 30px;
+  position: relative;
+  animation: move 5s linear infinite;
+  left: -10%;
+  animation-delay: 500ms;
+  border: 1px solid white;
+}
+.Fx-5 {
+  height: 20px;
+  width: 30px;
+  position: relative;
+  animation: move 5s linear infinite;
+  left: -10%;
+  animation-delay: 1.8s;
+  border: 1px solid white;
+}
+.Fx-6 {
+  height: 20px;
+  width: 30px;
+  position: relative;
+  animation: move 5s linear infinite;
+  left: -10%;
+  animation-delay: 3s;
+  border: 1px solid white;
+}
+.Fx-7 {
+  height: 20px;
+  width: 30px;
+  position: relative;
+  animation: move 5s linear infinite;
+  left: -10%;
+  animation-delay: 2.8s;
+  border: 1px solid white;
+}
+.Fx-8 {
+  height: 20px;
+  width: 30px;
+  position: relative;
+  animation: move 5s linear infinite;
+  left: -10%;
+  animation-delay: 3.8ms;
+  border: 1px solid white;
+}
+.Fx-9 {
+  height: 20px;
+  width: 30px;
+  position: relative;
+  animation: move 5s linear infinite;
+  left: -10%;
+  animation-delay: 1001ms;
+  border: 1px solid white;
+}
+@keyframes move {
+  0%{left: -10%;}
+  100%{left: 120%;}
+}
+#LogAd {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 20px;
+  width:  40%;
+  display: block;
+  background: linear-gradient(to bottom left, black, #2651D9);
+  border-radius: 30px;
+  display: none;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.logcon {
+  font-size: 20px;
+  font-style: none;
+  padding: 15px;
+  margin: 5px 0;
+}
+h3 {
+  padding: 20px;
+  font-size: 25px;
+}
+button {
+  background: transparent;
+  font-size: 20px;
+  width: 100%;
+  margin: 20px 0;
+  height: 50px;
+  background-position: top;
+  background-size: 500%;
+  color: white;
+  border-radius: 50px;
+  border: 1px solid black;
+  text-align: center;
+}
+#cancel {
+  border: 1px solid #D56060;
+}
+#cancel:hover {
+  background: #D56060;
+}
+#ok:hover {
+  background: #5FD55C;
+}
+#ok {
+  border: 1px solid #5FD55C;
+}
